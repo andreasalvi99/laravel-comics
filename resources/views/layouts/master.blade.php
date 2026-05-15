@@ -6,10 +6,10 @@
     <title>DC Comics</title>
 </head>
 <body>
+    <div>
+        @yield('main-content')
+    </div>
 
-@section('main-content')
 
-@endsection
-    
 </body>
 </html>
