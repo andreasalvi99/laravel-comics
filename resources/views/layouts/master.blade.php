@@ -10,9 +10,15 @@
 
     @include('partials.header')
 
-    <div>
-        @yield('main-content')
-    </div>
+    <section>
+        @yield('jumbotron')
+    </section>
+
+    <section>
+        <div class="container">
+            @yield('main-content')
+        </div>
+    </section>
 
 
 </body>

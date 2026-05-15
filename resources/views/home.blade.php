@@ -1,6 +1,11 @@
 @extends('layouts.master')
 
-@section('main-content')
-<h1>Ciaoooo</h1>
+@section('jumbotron')
+
 @endsection
+
+@section('main-content')
+
+@endsection
+
     
