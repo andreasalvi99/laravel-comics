@@ -1,17 +1,17 @@
 <header>
     <nav class="d-flex justify-content-around">
-        <img src="" alt="">
-        <ul class="navbar-nav d-flex flex-row">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
-            <li class="nav-item">Placheholder</li class="nav-item">
+        <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="dc-logo" class="navbar-logo">
+        <ul class="navbar-nav d-flex flex-row align-items-center gap-4 fw-bold">
+            <li class="nav-item">CHARACTERS</li class="nav-item">
+            <li class="nav-item">COMICS</li class="nav-item">
+            <li class="nav-item">MOVIES</li class="nav-item">
+            <li class="nav-item">TV</li class="nav-item">
+            <li class="nav-item">GAMES</li class="nav-item">
+            <li class="nav-item">COLLECTIBLES</li class="nav-item">
+            <li class="nav-item">VIDEOS</li class="nav-item">
+            <li class="nav-item">FANS</li class="nav-item">
+            <li class="nav-item">NEWS</li class="nav-item">
+            <li class="nav-item">SHOP</li class="nav-item">
         </ul>
     </nav>
 </header>
