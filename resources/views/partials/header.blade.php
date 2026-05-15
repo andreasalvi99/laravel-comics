@@ -1,5 +1,5 @@
 <header>
-    <nav class="d-flex justify-content-around">
+    <nav class="d-flex justify-content-around p-3">
         <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="dc-logo" class="navbar-logo">
         <ul class="navbar-nav d-flex flex-row align-items-center gap-4 fw-bold">
             <li class="nav-item">CHARACTERS</li class="nav-item">

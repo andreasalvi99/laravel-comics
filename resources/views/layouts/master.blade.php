@@ -10,7 +10,7 @@
 
     @include('partials.header')
 
-    <section>
+    <section id="jumbotron">
         @yield('jumbotron')
     </section>
 
