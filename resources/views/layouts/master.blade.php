@@ -14,7 +14,7 @@
         @yield('jumbotron')
     </section>
 
-    <section>
+    <section class="bg-dark">
         <div class="container">
             @yield('main-content')
         </div>
